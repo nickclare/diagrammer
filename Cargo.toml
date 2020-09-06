@@ -1,0 +1,17 @@
+[package]
+name = "diagrammer"
+version = "0.1.0"
+authors = ["Nicholas Clare <nickclare@gmail.com>"]
+edition = "2018"
+
+[workspace]
+members = [
+    "core",
+    "render",
+]
+
+[dependencies]
+diagrammer-core = { path = "./core" }
+diagrammer-render = { path = "./render" }
+svg = "0.8.0"
+rgb = "0.8.25"

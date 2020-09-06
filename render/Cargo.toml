@@ -1,0 +1,15 @@
+[package]
+name = "diagrammer-render"
+version = "0.1.0"
+authors = ["Nicholas Clare <nickclare@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rusttype = "0.9.2"
+svg = "0.8.0"
+rand = "0.7"
+
+diagrammer-core = { path = "../core" }
+thiserror = "1.0.20"
